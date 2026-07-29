@@ -1,6 +1,5 @@
 # Prototipo no-LFS per asset web
 * text=auto
-
 *.png binary !filter
 *.jpg binary !filter
 *.jpeg binary !filter
@@ -15,6 +14,10 @@
 *.ttf binary !filter
 *.eot binary !filter
 *.otf binary !filter
+*.css linguist-vendored
+*.scss linguist-vendored
+*.js linguist-vendored
+CHANGELOG.md export-ignore
 *.png !text !filter !merge !diff
 *.svg !text !filter !merge !diff
 *.jpg !text !filter !merge !diff
