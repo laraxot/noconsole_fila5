@@ -37,3 +37,14 @@ error_log
 *:Zone.Identifier
 /.env
 
+# Laraxot — forbidden at module/theme root (rector.php, phpinsights.php, .cursor, .windsurf, .vscode)
+/rector.php
+/phpinsights.php
+/.cursor
+/.cursor/
+/.windsurf
+/.windsurf/
+/.vscode
+/.vscode/
+.cursor~*
+.windsurf~*
