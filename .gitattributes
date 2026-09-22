@@ -1,5 +1,6 @@
 # Prototipo no-LFS per asset web
 * text=auto
+
 *.png binary !filter
 *.jpg binary !filter
 *.jpeg binary !filter
