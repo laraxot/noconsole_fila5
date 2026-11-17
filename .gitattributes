@@ -1,5 +1,12 @@
-# Prototipo no-LFS per asset web
+# Asset web noconsole — blob git normali, NIENTE git-lfs.
+# Canon: bashscripts/ai/wiki/rules/no-git-lfs.md
+# Sui binari solo `binary !filter` (mai !merge/!diff/!text).
+
 * text=auto
+*.css linguist-vendored
+*.scss linguist-vendored
+*.js linguist-vendored
+CHANGELOG.md export-ignore
 
 *.png binary !filter
 *.jpg binary !filter
@@ -15,13 +22,8 @@
 *.ttf binary !filter
 *.eot binary !filter
 *.otf binary !filter
-*.css linguist-vendored
-*.scss linguist-vendored
-*.js linguist-vendored
-CHANGELOG.md export-ignore
-*.png !text !filter !merge !diff
-*.svg !text !filter !merge !diff
-*.jpg !text !filter !merge !diff
-*.jpeg !text !filter !merge !diff
-*.gif !text !filter !merge !diff
-*.webp !text !filter !merge !diff
+*.mp4 binary !filter
+*.psd binary !filter
+*.phar binary !filter
+*.db binary !filter
+*.sqlite binary !filter
